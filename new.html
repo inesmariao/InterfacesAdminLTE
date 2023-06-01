@@ -1,0 +1,116 @@
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 rounded p-5 mr-5" style="background: linear-gradient(to bottom right, #00BFFF, #66CDAA, #FFFF99);"><!-- Aquí se aplica el degradado de colores -->
+        <form>
+          <div class="row mb-5">
+            <div class="col">
+              <label for="nombres" class="form-label">
+                <i class="fas fa-user" data-bs-toggle="tooltip" data-bs-placement="top" title="Nombres"></i> Nombres
+              </label>
+              <input type="text" class="form-control rounded" id="nombres" placeholder="Ingrese sus nombres">
+            </div>
+            <div class="col">
+              <label for="apellidos" class="form-label">
+                <i class="fas fa-user" data-bs-toggle="tooltip" data-bs-placement="top" title="Apellidos"></i> Apellidos
+              </label>
+              <input type="text" class="form-control rounded" id="apellidos" placeholder="Ingrese sus apellidos">
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <div class="row">
+                <label for="tipoDocumento" class="form-label">
+                  <i class="fas fa-id-card" data-bs-toggle="tooltip" data-bs-placement="top" title="Tipo de Documento"></i> Tipo de Documento
+                </label>
+              </div>
+              <div class="row">
+              <select class="form-select rounded" id="tipoDocumento">
+                <option value="CC">Cédula Ciudadanía</option>
+                <option value="CE">Cédula Extranjería</option>
+                <option value="P">Pasaporte</option>
+              </select>
+              </div>
+            </div>
+            <div class="col">
+              <label for="numeroDocumento" class="form-label">
+                <i class="fas fa-id-card" data-bs-toggle="tooltip" data-bs-placement="top" title="Número de Documento"></i> Número de Documento
+              </label>
+              <input type="text" class="form-control rounded" id="numeroDocumento" placeholder="Ingrese su número de documento">
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <label for="telefono" class="form-label">
+                <i class="fas fa-phone" data-bs-toggle="tooltip" data-bs-placement="top" title="Teléfono"></i> Teléfono
+              </label>
+              <input type="text" class="form-control rounded" id="telefono" placeholder="Ingrese su número de teléfono">
+            </div>
+            <div class="col">
+              <label for="direccion" class="form-label">
+                <i class="fas fa-map-marker-alt" data-bs-toggle="tooltip" data-bs-placement="top" title="Dirección"></i> Dirección
+              </label>
+              <input type="text" class="form-control rounded" id="direccion" placeholder="Ingrese su dirección">
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <div class="row">
+                <label for="municipio" class="form-label">
+                  <i class="fas fa-city" data-bs-toggle="tooltip" data-bs-placement="top" title="Municipio"></i> Municipio
+                </label>
+              </div>
+              <div class="row">
+                <select class="form-select rounded" id="municipio">
+                  <option value="Duitama">Duitama</option>
+                  <option value="Paipa">Paipa</option>
+                  <option value="Sogamoso">Sogamoso</option>
+                </select>
+              </div>
+            </div>
+            <div class="col">
+              <label for="fechaNacimiento" class="form-label">
+                <i class="fas fa-calendar-alt" data-bs-toggle="tooltip" data-bs-placement="top" title="Fecha de Nacimiento"></i> Fecha de Nacimiento
+              </label>
+              <input type="date" class="form-control rounded" id="fechaNacimiento">
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <div class="row">
+                <label for="rol" class="form-label">
+                  <i class="fas fa-users" data-bs-toggle="tooltip" data-bs-placement="top" title="Rol"></i> Rol
+                </label>
+              </div>
+              <div class="row">
+                <select class="form-select rounded" id="rol">
+                  <option value="Empleado">Empleado</option>
+                  <option value="Administrador">Administrador</option>
+                  <option value="Vendedor">Vendedor</option>
+                </select>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <label for="sucursal" class="form-label">
+                  <i class="fas fa-store" data-bs-toggle="tooltip" data-bs-placement="top" title="Sucursal"></i> Sucursal
+                </label>
+              </div>
+              <div class="row">
+                <select class="form-select rounded" id="sucursal">
+                  <option value="Sucursal1">Sucursal 1</option>
+                  <option value="Sucursal2">Sucursal 2</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col">
+              <button type="submit" class="btn btn-primary">Registrar</button>
+              <button type="button" class="btn btn-secondary">Cancelar</button><!-- Se agregó el botón "Cancelar" -->
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
